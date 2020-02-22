@@ -111,18 +111,3 @@ const Container = styled.div.attrs(({ x, y }) => ({
       cursor: grabbing;
     `};
 `;
-
-// const Container = styled.div.attrs({
-//   style: ({ x, y }) => ({
-//     transform: `translate(${x}px, ${y}px)`
-//   })
-// })`
-//   cursor: grab;
-
-//   ${({ isDragging }) =>
-//     isDragging &&
-//     css`
-//       opacity: 0.8;
-//       cursor: grabbing;
-//     `};
-// `;
